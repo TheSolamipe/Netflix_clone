@@ -23,6 +23,9 @@
   font-size: 0.8rem;
   max-width: 360px;
   height: 80px;
+  font-family: "BR Firma Regular";
+  font-weight: 200;
+  letter-spacing: 0.2px;
 }
 
 .banner__btn {

@@ -1,13 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "BR Firma Black", "BR Firma Medium", "BR Firma Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    "BR Firma Black", "BR Firma Medium", "BR Firma Regular", monospace;
+}
+
+@font-face {
+  font-family: "BR Firma Black";
+  src: url("/font/BR Firma Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "BR Firma Medium";
+  src: url("/font/BR Firma Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "BR Firma Regular";
+  src: url("/font/BR Firma Regular.otf") format("opentype");
 }
