@@ -58,3 +58,33 @@
     #111
   );
 }
+
+@media only screen and (max-width: 450px) {
+  .banner {
+    height: 268px;
+  }
+
+  .banner__contents {
+    padding-top: 80px;
+    height: 140px;
+  }
+
+  .banner__title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .banner__description {
+    width: 15rem;
+    font-size: 0.6rem;
+  }
+
+  .banner__btn {
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .banner--fadeBottom {
+    height: 3rem;
+  }
+}
